@@ -1,0 +1,4 @@
+# dsh-sidebar-fold 组合包补丁：插入侧栏折叠插件行。
+- insert:
+    - id: sidebar-fold
+      name: 'dsh-sidebar-fold'

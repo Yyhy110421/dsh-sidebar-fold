@@ -1,0 +1,43 @@
+{
+  "name": "dsh-sidebar-fold",
+  "version": "0.1.0",
+  "private": false,
+  "description": "侧栏折叠：一键收起 / 展开 DSH 侧栏工作区上方的入口。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./client.js",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "ui",
+    "sidebar",
+    "dsh-plugin"
+  ],
+  "author": "Yyhy110421",
+  "license": "MIT",
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  }
+}
